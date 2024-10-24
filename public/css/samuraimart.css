@@ -183,23 +183,20 @@ label {
     background-color: #d94b0e;
 }
 
-th, td {
+/* th, td {
     background-color: #f8fafc !important;
-}
-.samurai-mart-star-rating {
+} */
+
+.samuraimart-star-rating {
     position: relative;
     z-index: 0;
     display: inline-block;
     color: gray;
     white-space: nowrap;
-}
-
-.samurai-mart-star-rating::before
-.samurai-mart-star-rating::after {
     content: "★★★★★";
 }
 
-.samurai-mart-star-rating::after {
+.samuraimart-star-rating::after {
     position: absolute;
     top: 0;
     left: 0;

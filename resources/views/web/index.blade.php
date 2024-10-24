@@ -60,9 +60,6 @@
                                  @endif
                                  <label>￥{{ $recently_product->price }}</label>
                              </p>
-                             <div class="star-rating" data-rating="{{ $recently_product->average_rating ?? 0 }}">
-                                 <span>{{ number_format($recently_product->average_rating ?? 0, 1) }} / 5</span>
-                             </div>
                          </div>
                      </div>
                  </div>
