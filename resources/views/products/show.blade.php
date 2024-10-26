@@ -17,7 +17,9 @@
                     {{$product->name}}
                 </h1>
                 @if ($product->reviews()->exists())
-                    <span class="samuraimart-star-rating" data-rate="{{ round($product->reviews->avg('score') * 2) / 2 }}"></span>
+                    <p>
+                        <span class="samuraimart-star-rating" data-rate="{{ round($product->reviews->avg('score') * 2) / 2 }}"></span>
+                    </p>
                     {{ round($product->reviews->avg('score'), 1) }}<br>
                 @endif
                 <p class="">
