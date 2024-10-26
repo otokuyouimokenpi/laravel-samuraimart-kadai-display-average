@@ -196,6 +196,11 @@ label {
     content: "★★★★★";
 }
 
+.samuraimart-star-rating::before,
+.samuraimart-star-rating::after {
+    content: "★★★★★";
+}
+
 .samuraimart-star-rating::after {
     position: absolute;
     top: 0;
