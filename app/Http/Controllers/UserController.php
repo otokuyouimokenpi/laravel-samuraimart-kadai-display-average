@@ -80,7 +80,7 @@ class UserController extends Controller
     {
         $user = Auth::user();
 
-        $favorite_products = $user->favorite_product()->paginate(5);
+        $favorite_products = $user->favorite_products()->paginate(5);
 
         return view('users.favorite', compact('favorite_products'));
     }
